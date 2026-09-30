@@ -12,7 +12,7 @@ var Title = function(game, group, gameState) {
 
   var instr = game.add.text(SCREEN_WIDTH / 2,
                             SCREEN_HEIGHT * 0.7,
-                            'Press       to start',
+                            ' Touche       pour jouer',
                             {font: "48px VT323",
                             fill: "#fff"});
   instr.anchor.setTo(0.5);

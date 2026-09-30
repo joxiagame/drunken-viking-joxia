@@ -4,60 +4,60 @@ var levels = [
     level:'level1',
     day:'Sunnudagr',
     texts: [
-      'By Thor, what a headache!',
-      'I must have drunk too much mead last night,',
-      'but I cannot remember how I got here!',
+      'Par Thor, quel mal de crâne !',
+      'J\'ai dû boire trop d\'hydromel hier soir,',
+      'mais je ne me souviens pas comment je suis arrivé ici !',
       '...',
-      '...wait, it\'s all coming back now...',
-      '(Retrace your trail of destruction to the front gate)'
+      '...attends, ça me revient...',
+      '(Refais le chemin de tes dégâts jusqu\'à la porte d\'entrée)'
     ]
   },
   {
     level:'level2',
     day:'Manadagr',
     texts: [
-      'Manadagr: Birger, son of Hlodvir, is marrying that sweet lass Skuld!',
-      'We had too much to drink.'
+      'Manadagr : Birger, fils de Hlodvir, épouse la douce Skuld !',
+      'On a trop bu.'
     ]
   },
   {
     level:'level3',
     day:'Tysdagr',
     texts: [
-      'Tysdagr: that troll Thorgeir won\'t let us pillage today!',
-      'So instead we had a drink. Maybe too much.'
+      'Tysdagr : ce troll de Thorgeir refuse qu\'on pille aujourd\'hui !',
+      'Alors on a bu un verre. Peut-être un de trop.'
     ]
   },
   {
     level:'level4',
     day:'Ooinsdagr',
     texts: [
-      'Ooinsdagr: Njal quarreled with his wench again.',
-      'We cheered him up by getting drunk.'
+      'Ooinsdagr : Njal s\'est encore disputé avec sa belle.',
+      'On lui a remonté le moral en se soûlant.'
     ]
   },
   {
     level:'level5',
     day:'Thorsdagr',
     texts: [
-      'Thorsdagr: Ragnar\'s wife gave birth to a strong Viking boy!',
-      'We celebrated by having drinks.'
+      'Thorsdagr : la femme de Ragnar a mis au monde un solide petit Viking !',
+      'On a fêté ça en buvant.'
     ]
   },
   {
     level:'level6',
     day:'Frjadagr',
     texts: [
-      'Frjadagr: nothing to do but listen to Sigurd spin tales.',
-      'Eventually we decided to drink instead.'
+      'Frjadagr : rien à faire, à part écouter les histoires de Sigurd.',
+      'Finalement, on a préféré boire.'
     ]
   },
   {
     level:'level7',
     day:'Laugardagr',
     texts: [
-      'Laugardagr: I keep breaking things so Ulf got me new stuff.',
-      'What a fine Viking! I had to thank him by buying drinks.'
+      'Laugardagr : je casse tout, alors Ulf m\'a offert des affaires neuves.',
+      'Quel brave Viking ! Je l\'ai remercié en payant la tournée.'
     ]
   }
 ];

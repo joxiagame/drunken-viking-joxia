@@ -12,7 +12,7 @@ function getScoreText(map, day) {
   var destroyed = map.countTiles(map.before, map.after, function(before, after) {
     return before.index >= 0 && after.alpha === 0;
   });
-  return day + ' Complete!\n' +
-         'Clothes: ' + Math.round(pickedUp * 100 / pickups) + '%\n' +
-         'Destruction: ' + Math.round(destroyed * 100 / destructibles) + '%';
+  return day + ' terminé !\n' +
+         'Vêtements : ' + Math.round(pickedUp * 100 / pickups) + '%\n' +
+         'Destruction : ' + Math.round(destroyed * 100 / destructibles) + '%';
 }

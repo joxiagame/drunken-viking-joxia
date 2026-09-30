@@ -31,12 +31,12 @@ GameState.prototype.create = function() {
 
   this.player = new Player(this.game,
                            this.map.getBed(),
-                           ['hrrng', 'hic', 'groan']);
+                           ['hrrng', 'hic', 'argh']);
   this.groups.sprites.add(this.player);
   this.dialog = new Dialog(this.game, this.groups.dialogs,
                            SCREEN_WIDTH / 2, SCREEN_HEIGHT - 64,
                            levels[this.levelIndex].texts);
-  this.instantReplay = this.game.add.text(48, 24, 'Instant Replay', {
+  this.instantReplay = this.game.add.text(48, 24, 'Rediffusion', {
     font: "32px VT323", fill: "#ff6666", align: "left"
   });
   this.instantReplayTween = this.game.add.tween(this.instantReplay)
@@ -50,7 +50,7 @@ GameState.prototype.create = function() {
   // Hide dialog initially
   this.groups.dialogs.alpha = 0;
 
-  this.hintText = this.game.add.text(SCREEN_WIDTH - 190, 24, 'Press R to reset', {
+  this.hintText = this.game.add.text(SCREEN_WIDTH - 190, 24, 'R : recommencer', {
     font: "24px VT323", fill: "#66ff66", align: "right"
   });
   this.hintTextTween = this.game.add.tween(this.hintText)
