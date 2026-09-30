@@ -1,3 +1,7 @@
+<!-- joxia-credits -->
+> 🎮 **Fork Joxia Games** de [cxong/DrunkenViking](https://github.com/cxong/DrunkenViking) — jeu original de ses auteurs, licence **MIT** (fichier `LICENSE` d'origine conservé). Jouer : https://joxiagame.github.io/drunken-viking-joxia/ · Crédits : [`CREDITS.md`](CREDITS.md) · Liste source : [leereilly/games](https://github.com/leereilly/games)
+<!-- /joxia-credits -->
+
 ![Drunken Viking](https://raw.githubusercontent.com/cxong/DrunkenViking/master/logo2.png)
 ==============
 
