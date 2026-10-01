@@ -228,6 +228,8 @@ GameState.prototype.move = function(dir) {
           levelsCompleted < this.levelIndex + 1) {
         localStorage["DrunkenViking.levels"] = this.levelIndex + 1;
       }
+      // Joxia : nombre de jours (niveaux) terminés envoyé au classement du hub
+      if (window.joxiaScore) window.joxiaScore(parseInt(localStorage["DrunkenViking.levels"], 10));
       return;
     }
     // Check for wall collision
